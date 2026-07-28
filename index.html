@@ -64,6 +64,44 @@
             overflow-wrap: normal;
         }
 
+        /* 学校復帰サポート用案内枠 */
+        .school-support-box {
+            background: #FFFBE6;
+            border: 2px solid #F0E6A5;
+            border-radius: 25px;
+            padding: 20px 25px;
+            margin-bottom: 35px;
+            text-align: left;
+            box-sizing: border-box;
+            line-height: 1.8;
+        }
+        .school-support-title {
+            color: #D84B81;
+            font-size: 1.1rem;
+            display: block;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        .school-support-btn-wrap {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .school-support-link {
+            display: inline-block;
+            background: #D84B81;
+            color: #fff;
+            padding: 8px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.95rem;
+            transition: 0.3s;
+        }
+        .school-support-link:hover {
+            background: #B83B6C;
+            transform: translateY(-2px);
+        }
+
         /* 戻るボタン共通スタイル（カプセル型・角丸） */
         .back-btn {
             display: block; width: fit-content;
@@ -105,6 +143,17 @@
 
 <div class="container">
     <h1>料金・利用案内</h1>
+
+    <!-- 学校復帰サポートについての案内枠 -->
+    <div class="school-support-box">
+        <strong class="school-support-title">【午前の学び】学校復帰サポートの料金・詳細について</strong>
+        <span style="font-size: 0.95rem; color: #555;">
+            学校復帰サポート（午前の時間帯）の受講料や出張料金、詳細につきましては専用ページをご確認ください。
+        </span>
+        <div class="school-support-btn-wrap">
+            <a href="school-support.html" class="school-support-link">学校復帰サポートの詳細・料金はこちら</a>
+        </div>
+    </div>
 
     <h2>授業料金</h2>
 
@@ -173,7 +222,7 @@
         ・予約後にPayPayのQRコードをお送りします。</p>
         <p>【対面の場合】<br>
         ・PayPay または 現金でお支払いください。<br>
-       
+        
         
         <p style="margin-top:20px;">
             <strong class="schedule-title">■ 有料相談スケジュール（月〜金）：</strong><br>
