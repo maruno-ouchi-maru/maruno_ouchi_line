@@ -96,45 +96,42 @@
             font-weight: bold;
             font-size: 0.95rem;
             transition: 0.3s;
+            cursor: pointer;
         }
         .school-support-link:hover {
             background: #B83B6C;
             transform: translateY(-2px);
         }
 
-        /* 戻るボタン共通スタイル（カプセル型・角丸） */
+        /* 戻るボタン共通スタイル */
         .back-btn {
             display: block; width: fit-content;
             padding: 12px 50px; color: #7A6A2F;
             text-decoration: none; font-weight: bold; 
-            border-radius: 30px; /* きれいな角丸に変更 */
+            border-radius: 30px;
             transition: 0.3s;
             text-align: center;
             margin: 0 auto;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            cursor: pointer;
         }
         .back-btn:hover { opacity: 0.8; transform: scale(1.05); }
 
-        /* ボタンごとの色設定 */
-        .btn-link { background-color: #F0E6A5; margin-top: 50px; } /* レモンイエロー */
-        .btn-home { background-color: #BEE1EB; margin-top: 20px; color: #4A6FA5; } /* 綺麗な水色 */
+        .btn-link { background-color: #F0E6A5; margin-top: 50px; }
+        .btn-home { background-color: #BEE1EB; margin-top: 20px; color: #4A6FA5; }
 
         @media (max-width: 600px) { 
             .container { padding: 40px 15px; } 
             h1 { font-size: 2rem; } 
             .section-box { padding: 20px; }
-            
             .sodan-grid { grid-template-columns: 1fr; }
-
-            /* スケジュールを1行に収めるための調整 */
             .schedule-title { font-size: 0.95rem; }
             .schedule-text { 
                 font-size: 0.85rem; 
-                letter-spacing: -0.05em; /* 字間を詰めて横並びを死守 */
+                letter-spacing: -0.05em;
                 white-space: nowrap; 
             }
-
-            .back-btn { width: 90%; padding: 14px 20px; } /* スマホでは押しやすく幅広に */
+            .back-btn { width: 90%; padding: 14px 20px; }
         }
     </style>
 </head>
@@ -151,14 +148,14 @@
             学校復帰サポート（午前の時間帯）の受講料や出張料金、詳細につきましては専用ページをご確認ください。
         </span>
         <div class="school-support-btn-wrap">
-            <a href="school-support.line.html" class="school-support-link">学校復帰サポートの詳細・料金はこちら</a>
+            <a href="./school-support.line.html" class="school-support-link">学校復帰サポートの詳細・料金はこちら</a>
         </div>
     </div>
 
     <h2>授業料金</h2>
 
     <div class="section-box">
-    <span class="section-title">【予約制（都度払い）】</span>
+        <span class="section-title">【予約制（都度払い）】</span>
         <p>■ 授業時間：<strong>1回 60分</strong></p>
         <p class="price-text">■ 料金<br>
         <strong>初回：</strong><span class="blue">2,000円</span><br>
@@ -175,7 +172,7 @@
         <p>■ 授業時間：<strong>1回 60分 × 週2回</strong></p>
         <p class="price-text">■ 月謝：<span class="blue" style="font-size:1.3rem;">16,000円</span></p>
         <p><span class="blue">※その月の最後の授業日までにお支払いをお願いします。<br></span></p>
-お休みされた場合は次回の来室時でも大丈夫です。
+        お休みされた場合は次回の来室時でも大丈夫です。
         <p>■ お支払い方法：<br>
         ・PayPay（<span class="red">玄関先での決済、またはご自宅からの決済が可能です。その月の最終授業日までにお願いいたします。</span>）<br>
         ・現金（<span class="red">額が大きいため、保護者の方がお持ちください</span>）</p>
@@ -221,8 +218,7 @@
         ・<span class="blue">事前払い</span>となります。<br>
         ・予約後にPayPayのQRコードをお送りします。</p>
         <p>【対面の場合】<br>
-        ・PayPay または 現金でお支払いください。<br>
-        
+        ・PayPay または 現金でお支払いください。</p>
         
         <p style="margin-top:20px;">
             <strong class="schedule-title">■ 有料相談スケジュール（月〜金）：</strong><br>
@@ -236,7 +232,6 @@
         <p style="font-size:0.9rem;">犬のいる環境で症状が出る場合があり、その際の責任は負いかねます。ご了承ください。</p>
     </div>
 
-   
 </div>
 
 </body>
